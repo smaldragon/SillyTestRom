@@ -1,10 +1,19 @@
 # SillyTestRom
 
-"SillyTestRom" is a simple discrete logic mapper for the famicom/clone/nes that I designed for a game I'm working on:
+![PCB Render](pcb.png)
+![Schematic](schematic.png)
+
+"SillyTestRom" is a simple discrete logic mapper for the famicom/clone that I made for my own personal messing around with homebrew:
 
 * 512 KiB PRG-FLASH (re-writabble)
 * 8KiB CHR-RAM
 * Arbitrary Nametable Mirroring
+
+The board can also be bodged into other configurations.
+
+Mapper ICs:
+* 74HC377 (8bit register with enable, mapper register)
+* 74HC153 (dual 4→1 multiplexer, mirroring logic and chip-enable not gate)
 
 ## Register (0x8000-0x9FFF)
 
