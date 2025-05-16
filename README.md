@@ -82,7 +82,7 @@ Potential Address+Data Alternative:
 Address | Data
    BBBB | xxCC.xxMM
       |     |    +------ Nametable Mirroring
-      |     +----------- CHR Bank (8K@8000)
+      |     +----------- CHR Bank (8K@ppu$0000)
       +----------------- PRG Bank (32K@$8000)
 ```
 
